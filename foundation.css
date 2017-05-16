@@ -605,11 +605,11 @@ h6 {
 
 a {
   line-height: inherit;
-  color: #2ba6cb;
+  color: #008774;
   text-decoration: none;
   cursor: pointer; }
   a:hover, a:focus {
-    color: #258faf; }
+    color: #007464; }
   a img {
     border: 0; }
 
@@ -936,7 +936,7 @@ kbd {
   .menu.nested {
     margin-left: 1rem; }
   .menu .active > a {
-    background: #2ba6cb;
+    background: #008774;
     color: #fefefe; }
   .menu.menu-bordered li {
     border: 1px solid #e6e6e6; }
