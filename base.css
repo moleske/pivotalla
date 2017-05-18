@@ -1,0 +1,82 @@
+@font-face {
+    font-family: FreightSansProBook;
+    src: url(FreigSanProBook.otf);
+}
+
+@font-face {
+    font-family: FreightSansProMedium;
+    src: url(FreigSanProMed.otf);
+}
+
+/*@font-face {
+    font-family: Wisdom-Script;
+    src: url(????.otf);
+}*/
+
+body {
+  font-family: FreightSansProBook;
+  font-size: 18px;
+  color: #314b56;
+}
+
+.logo {
+  font-family: Wisdom-Script;
+  font-size: 28px;
+  color: #525252;
+}
+
+.navagation {
+  text-transform: uppercase;
+}
+
+.pivotal-logo {
+  width: 99.8px;
+}
+
+.icon-los-angeles-lg {
+  width: 120px;
+  height: 151px;
+  object-fit: contain;
+}
+
+h1 {
+  font-family: FreightSansProMedium;
+  font-size: 64px;
+  color: #525252;
+}
+
+h2 {
+  font-family: FreightSansProMedium;
+  font-size: 28px;
+  color: #525252;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-family: FreightSansProMedium;
+  font-size: 20px;
+  color: #525252;
+  text-transform: uppercase;
+}
+
+.inline {
+  display: inline;
+}
+
+.rectangle-tan {
+  width: 215px;
+  height: 215px;
+  border: solid 5px #fbcbb3;
+}
+
+.rectangle-blue {
+  width: 215px;
+  height: 215px;
+  border: solid 5px #cbeef0;
+}
+
+.rectangle-grey {
+  width: 215px;
+  height: 215px;
+  border: solid 5px #ebe0dc;
+}
