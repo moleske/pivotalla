@@ -16,17 +16,36 @@
 body {
   font-family: FreightSansProBook;
   font-size: 18px;
-  color: #314b56;
+  color: #525252;
+}
+
+.icon-los-angeles-sm {
+  vertical-align: middle;
+  padding-left: 40px
 }
 
 .logo {
   font-family: Wisdom-Script;
   font-size: 28px;
-  color: #525252;
+  display: inline;
+  padding-left: 24px;
 }
 
 .navagation {
+  display: inline;
+  float: right;
+}
+
+.navagation a {
+  color: #314b56;
   text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 1px;
+  margin-right: 40px;
+}
+
+.navagation a:hover {
+  border-bottom: 4px solid #f7e398
 }
 
 .pivotal-logo {
@@ -42,20 +61,17 @@ body {
 h1 {
   font-family: FreightSansProMedium;
   font-size: 64px;
-  color: #525252;
 }
 
 h2 {
   font-family: FreightSansProMedium;
   font-size: 28px;
-  color: #525252;
   text-transform: uppercase;
 }
 
 h3 {
   font-family: FreightSansProMedium;
   font-size: 20px;
-  color: #525252;
   text-transform: uppercase;
 }
 
