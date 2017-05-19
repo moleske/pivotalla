@@ -45,11 +45,12 @@ body {
 }
 
 .navagation a:hover {
+  cursor: pointer;
   border-bottom: 4px solid #f7e398
 }
 
 .pivotal-logo {
-  width: 99.8px;
+  width: 138px;
 }
 
 .icon-los-angeles-lg {
@@ -59,24 +60,33 @@ body {
 }
 
 h1 {
+  margin: 0;
   font-family: FreightSansProMedium;
   font-size: 64px;
+}
+
+.head-count {
+  font-family: FjallaOne;
+  font-size: 64px;
+}
+
+.percents {
+  font-family: FjallaOne;
+  font-size: 24px;
+  display: inline;
 }
 
 h2 {
   font-family: FreightSansProMedium;
   font-size: 28px;
   text-transform: uppercase;
+  text-align: center;
 }
 
 h3 {
   font-family: FreightSansProMedium;
   font-size: 20px;
   text-transform: uppercase;
-}
-
-.inline {
-  display: inline;
 }
 
 .rectangle-tan {
