@@ -98,3 +98,9 @@ h3 {
   height: 215px;
   border: solid 5px #ebe0dc;
 }
+
+.rectangle-yellow {
+  width: 215px;
+  height: 215px;
+  border: solid 5px #f7e398;
+}
