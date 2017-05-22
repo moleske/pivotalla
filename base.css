@@ -54,13 +54,17 @@ body {
 .icon-los-angeles-lg {
   width: 120px;
   height: 151px;
-  object-fit: contain;
+  position: relative;
+  bottom: 48px;
 }
 
 h1 {
   font-family: FreightSansProMedium;
   font-size: 64px;
   text-align: center;
+  margin: 0;
+  position: relative;
+  z-index: 1;
 }
 
 .head-count {
@@ -68,9 +72,32 @@ h1 {
   font-size: 64px;
 }
 
+.percent-block-labs {
+  height: 55px;
+  background-color: #fbcbb3;
+  border-left: solid 34px #fbfbfb;
+  border-right: solid 34px #fbfbfb;
+}
+
+.percent-block-cf {
+  height: 19px;
+  background-color: #b8eaed;
+  border-left: solid 34px #fbfbfb;
+  border-right: solid 34px #fbfbfb;
+}
+
+.percent-block-data {
+  height: 10px;
+  background-color: #ebe0dc;
+  border-left: solid 34px #fbfbfb;
+  border-right: solid 34px #fbfbfb;
+}
+
 .percents {
   font-family: FjallaOne;
   font-size: 24px;
+  position: relative;
+  bottom: 12px;
 }
 
 h2 {
@@ -78,6 +105,13 @@ h2 {
   font-size: 28px;
   text-transform: uppercase;
   text-align: center;
+}
+
+.recurring-title {
+  display: inline;
+  position: relative;
+  right: 2rem;
+  bottom: 0.5rem;
 }
 
 h3 {
@@ -89,25 +123,33 @@ h3 {
 }
 
 .rectangle-tan {
-  width: 215px;
-  height: 215px;
+  width: 21.5rem;
+  height: 21.5rem;
   border: solid 5px #fbcbb3;
 }
 
 .rectangle-blue {
-  width: 215px;
-  height: 215px;
+  width: 21.5rem;
+  height: 21.5rem;
   border: solid 5px #cbeef0;
 }
 
 .rectangle-grey {
-  width: 215px;
-  height: 215px;
+  width: 21.5rem;
+  height: 21.5rem;
   border: solid 5px #ebe0dc;
 }
 
 .rectangle-yellow {
-  width: 215px;
-  height: 215px;
+  width: 21.5rem;
+  height: 21.5rem;
   border: solid 5px #f7e398;
+}
+
+.profile-picture {
+  width: 21.5rem;
+  height: 21.5rem;
+  position: relative;
+  top: 1rem;
+  left: 1rem;
 }
