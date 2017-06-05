@@ -8,10 +8,15 @@
     src: url(FreigSanProMed.otf);
 }
 
-/*@font-face {
-    font-family: Wisdom-Script;
-    src: url(????.otf);
-}*/
+@font-face {
+    font-family: PacificoRegular;
+    src: url(Pacifico-Regular.ttf);
+}
+
+@font-face {
+    font-family: FjallaOne;
+    src: url(FjallaOne-Regular.ttf);
+}
 
 body {
   font-family: FreightSansProBook;
@@ -34,20 +39,30 @@ body {
 }
 
 .logo {
-  font-family: Wisdom-Script;
+  font-family: PacificoRegular;
   font-size: 28px;
   display: inline;
   padding-left: 24px;
 }
 
-.column a {
+.home {
+  color: #525252;
+  text-decoration: none;
+}
+
+.home:hover {
+  color: #525252;
+}
+
+.nav-link{
   color: #314b56;
   text-transform: uppercase;
   text-decoration: none;
   letter-spacing: 1px;
 }
 
-.column a:hover {
+.nav-link:hover {
+  color: #314b56;
   cursor: pointer;
   border-bottom: 4px solid #f7e398
 }
@@ -56,9 +71,11 @@ body {
   width: 138px;
 }
 
+.icon-los-angeles-sm {
+    width: 40px;
+}
+
 .icon-los-angeles-lg {
-  width: 120px;
-  height: 151px;
   position: relative;
   bottom: 48px;
 }
@@ -70,6 +87,42 @@ h1 {
   margin: 0;
   position: relative;
   z-index: 1;
+}
+
+h2 {
+  letter-spacing: 0;
+  position: relative;
+  z-index: 1;
+}
+
+.header-reactangle-yellow {
+  height: 1rem;
+  background-color: #f7e398;
+  position: relative;
+  bottom: 3.25rem;
+  z-index: 0;
+  width: 50%;
+  left: 3rem;
+}
+
+.header-reactangle-grey {
+  height: 1rem;
+  background-color: #ebe0dc;
+  position: relative;
+  bottom: 3.25rem;
+  z-index: 0;
+  width: 50%;
+  left: 3rem;
+}
+
+.header-reactangle-blue {
+  height: 1rem;
+  background-color: #cbeef0;
+  position: relative;
+  bottom: 3.25rem;
+  z-index: 0;
+  width: 50%;
+  left: 3rem;
 }
 
 .head-count {
