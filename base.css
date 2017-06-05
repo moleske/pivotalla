@@ -32,6 +32,10 @@ body {
 #nav {
   z-index: 50;
   line-height: 53px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 
 .grey-background {
@@ -54,7 +58,14 @@ body {
   color: #525252;
 }
 
-.nav-link{
+a[name] {
+  display: block;
+  position: relative;
+  top: -9rem;
+  visibility: hidden;
+}
+
+.nav-link {
   color: #314b56;
   text-transform: uppercase;
   text-decoration: none;

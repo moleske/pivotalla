@@ -8,51 +8,26 @@
     <link rel="stylesheet" type="text/css" href="skeleton.css" />
     <link rel="stylesheet" type="text/css" href="base.css" />
 
-    <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
-
-    <script type='text/javascript'>
-      $(function() {
-        // Stick the #nav to the top of the window
-        var nav = $('#nav');
-        var navHomeY = nav.offset().top;
-        var isFixed = false;
-        var $w = $(window);
-        $w.scroll(function() {
-          var scrollTop = $w.scrollTop();
-          var shouldBeFixed = scrollTop > navHomeY;
-          if (shouldBeFixed && !isFixed) {
-              nav.css({
-                  position: 'fixed',
-                  top: 0,
-                  left: nav.offset().left,
-                  width: nav.width()
-              });
-              isFixed = true;
-          }
-          else if (!shouldBeFixed && isFixed) {
-              nav.css({
-                  position: 'static'
-              });
-              isFixed = false;
-          }
-        });
-      });
-    </script>
-
     <title>Pivotal Los Angeles</title>
-
 </head>
 
 <body>
   <div class=" grey-background" id="nav">
     <div class="container">
       <div class="row">
-        <div class="one column"><a class="home" href="/"><img class="icon-los-angeles-sm" src="icon-los-angeles.svg"/></div></a>
+        <div class="one column"><a class="home" href="/"><img class="icon-los-angeles-sm" src="icon-los-angeles.svg"/></a></div>
         <div class="three columns logo"><a class="home" href="/">Los Angeles</a></div>
         <div class="one column offset-by-four"><a class="nav-link" href="#office">Office</a></div>
         <div class="one column"><a class="nav-link" href="#events">Events</a></div>
         <div class="one column"><a class="nav-link" href="#nearby">Nearby</a></div>
         <div class="one column"><a class="nav-link" href="#people">People</a></div>
+      </div>
+    </div>
+  </div>
+  <div class=" grey-background">
+    <div class="container">
+      <div class="row">
+        <div class="twelve columns">hello dave</div>
       </div>
     </div>
   </div>
@@ -92,7 +67,8 @@
   <div class="container">
     <div class="row">
       <div class="two columns offset-by-five">
-        <h2 id="office">Office</h2>
+        <a name="office">Go away Dave</a>
+        <h2>Office</h2>
         <div class="header-reactangle-yellow"></div>
       </div>
     </div>
@@ -115,7 +91,8 @@
     <div class="container">
       <div class="row">
         <div class="two columns offset-by-five">
-          <h2 id="events">Events</h2>
+          <a name="events">Go away Dave</a>
+          <h2>Events</h2>
           <div class="header-reactangle-grey"></div>
         </div>
       </div>
@@ -161,7 +138,8 @@
   <div class="container">
     <div class="row">
       <div class="two columns offset-by-five">
-        <h2 id="nearby">Nearby</h2>
+        <a name="nearby">Go away Dave</a>
+        <h2>Nearby</h2>
         <div class="header-reactangle-blue"></div>
       </div>
     </div>
@@ -179,7 +157,8 @@
     <div class="container">
       <div class="row">
         <div class="two columns offset-by-five">
-          <h2 id="people">People</h2>
+          <a name="people">Go away Dave</a>
+          <h2>People</h2>
           <div class="header-reactangle-yellow"></div>
         </div>
       </div>
