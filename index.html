@@ -7,13 +7,43 @@
     <link rel="stylesheet" type="text/css" href="normalize.css" />
     <link rel="stylesheet" type="text/css" href="skeleton.css" />
     <link rel="stylesheet" type="text/css" href="base.css" />
+    <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+
+    <script type='text/javascript'>
+      $(function() {
+        // Stick the #nav to the top of the window
+        var nav = $('#nav');
+        var navHomeY = nav.offset().top;
+        var isFixed = false;
+        var $w = $(window);
+        $w.scroll(function() {
+          var scrollTop = $w.scrollTop();
+          var shouldBeFixed = scrollTop > navHomeY;
+          if (shouldBeFixed && !isFixed) {
+              nav.css({
+                  position: 'fixed',
+                  top: 0,
+                  left: nav.offset().left,
+                  width: nav.width()
+              });
+              isFixed = true;
+          }
+          else if (!shouldBeFixed && isFixed) {
+              nav.css({
+                  position: 'static'
+              });
+              isFixed = false;
+          }
+        });
+      });
+    </script>
 
     <title>Pivotal Los Angeles</title>
 
 </head>
 
 <body>
-  <div class="grey-background">
+  <div class=" grey-background" id="nav">
     <div class="container">
       <div class="row">
         <div class="one column"><img src="icon-los-angeles.svg"/></div>
@@ -23,7 +53,11 @@
         <div class="one column"><a href="#nearby">Nearby</a></div>
         <div class="one column"><a href="#people">People</a></div>
       </div>
+    </div>
+  </div>
 
+  <div class="grey-background">
+    <div class="container">
       <div class="row">
         <div class="six columns offset-by-three" style="text-align: center;">
           <img class="pivotal-logo" src="Pivotal_Teal.png">

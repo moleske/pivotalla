@@ -24,6 +24,11 @@ body {
   padding-bottom: 12px;
 }
 
+#nav {
+  z-index: 50;
+  line-height: 53px;
+}
+
 .grey-background {
   background-color: #fbfbfb;
 }
