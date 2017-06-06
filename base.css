@@ -104,6 +104,10 @@ h2 {
   letter-spacing: 0;
   position: relative;
   z-index: 1;
+  font-family: FreightSansProMedium;
+  font-size: 28px;
+  text-transform: uppercase;
+  text-align: center;
 }
 
 .header-reactangle-yellow {
@@ -169,18 +173,16 @@ h2 {
   bottom: 12px;
 }
 
-h2 {
-  font-family: FreightSansProMedium;
-  font-size: 28px;
-  text-transform: uppercase;
-  text-align: center;
-}
-
 .recurring-title {
   display: inline;
   position: relative;
-  right: 2rem;
+  right: 1.5rem;
   bottom: 0.5rem;
+  text-transform: none;
+}
+
+.padding-bottom-two {
+  padding-bottom: 2rem;
 }
 
 h3 {
@@ -189,6 +191,7 @@ h3 {
   text-transform: uppercase;
   margin-top: 1rem;
   margin-bottom: 1rem;
+  letter-spacing: 0;
 }
 
 .rectangle-tan {
