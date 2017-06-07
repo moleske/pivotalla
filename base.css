@@ -194,6 +194,15 @@ h3 {
   letter-spacing: 0;
 }
 
+.overlay {
+   background:transparent;
+   position:relative;
+   width:640px;
+   height:600px;
+   top:600px;
+   margin-top:-600px;
+}
+
 .rectangle-tan {
   width: 21.5rem;
   height: 21.5rem;
