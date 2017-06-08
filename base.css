@@ -212,28 +212,33 @@ h3 {
   width: 21.5rem;
   height: 21.5rem;
   border: solid 5px #fbcbb3;
-  margin: 0 auto;
 }
 
 .rectangle-blue {
   width: 21.5rem;
   height: 21.5rem;
   border: solid 5px #cbeef0;
-  margin: 0 auto;
 }
 
 .rectangle-grey {
   width: 21.5rem;
   height: 21.5rem;
   border: solid 5px #ebe0dc;
-  margin: 0 auto;
 }
 
 .rectangle-yellow {
   width: 21.5rem;
   height: 21.5rem;
   border: solid 5px #f7e398;
+}
+
+.align-center-of-column {
   margin: 0 auto;
+}
+
+.align-right-of-column {
+  margin-right: 0;
+  margin-left: auto;
 }
 
 .profile-picture {
