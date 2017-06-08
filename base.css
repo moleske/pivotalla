@@ -14,11 +14,6 @@
 }
 
 @font-face {
-    font-family: PacificoRegular;
-    src: url(Pacifico-Regular.ttf);
-}
-
-@font-face {
     font-family: FjallaOne;
     src: url(FjallaOne-Regular.ttf);
 }
@@ -47,22 +42,6 @@ body {
   background-color: #fbfbfb;
 }
 
-.logo {
-  font-family: PacificoRegular;
-  font-size: 28px;
-  display: inline;
-  padding-left: 24px;
-}
-
-.home {
-  color: #525252;
-  text-decoration: none;
-}
-
-.home:hover {
-  color: #525252;
-}
-
 a[name] {
   display: block;
   position: relative;
@@ -85,10 +64,6 @@ a[name] {
 
 .pivotal-logo {
   width: 138px;
-}
-
-.icon-los-angeles-sm {
-    width: 40px;
 }
 
 .icon-los-angeles-lg {
