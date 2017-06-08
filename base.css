@@ -209,26 +209,22 @@ h3 {
 }
 
 .rectangle-tan {
-  width: 21.5rem;
-  height: 21.5rem;
+  width: 20rem;
   border: solid 5px #fbcbb3;
 }
 
 .rectangle-blue {
-  width: 21.5rem;
-  height: 21.5rem;
+  width: 20rem;
   border: solid 5px #cbeef0;
 }
 
 .rectangle-grey {
-  width: 21.5rem;
-  height: 21.5rem;
+  width: 20rem;
   border: solid 5px #ebe0dc;
 }
 
 .rectangle-yellow {
-  width: 21.5rem;
-  height: 21.5rem;
+  width: 20rem;
   border: solid 5px #f7e398;
 }
 
@@ -242,8 +238,7 @@ h3 {
 }
 
 .profile-picture {
-  width: 21.5rem;
-  height: 21.5rem;
+  width: 20rem;
   position: relative;
   top: 1rem;
   left: 1rem;
@@ -254,11 +249,11 @@ h3 {
 }
 
 .large-font {
-  font-size: 48px;
+  font-size: 42px;
 }
 
 .medium-font {
-  font-size: 24px;
+  font-size: 20px;
 }
 
 .github {
