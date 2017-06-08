@@ -9,6 +9,11 @@
 }
 
 @font-face {
+    font-family: FreightSansProBold-Regular;
+    src: url(FreigSanProBold.otf);
+}
+
+@font-face {
     font-family: PacificoRegular;
     src: url(Pacifico-Regular.ttf);
 }
