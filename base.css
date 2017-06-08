@@ -202,7 +202,7 @@ h3 {
 .overlay {
    background:transparent;
    position:relative;
-   width:640px;
+   width:960px;
    height:600px;
    top:600px;
    margin-top:-600px;
@@ -212,24 +212,28 @@ h3 {
   width: 21.5rem;
   height: 21.5rem;
   border: solid 5px #fbcbb3;
+  margin: 0 auto;
 }
 
 .rectangle-blue {
   width: 21.5rem;
   height: 21.5rem;
   border: solid 5px #cbeef0;
+  margin: 0 auto;
 }
 
 .rectangle-grey {
   width: 21.5rem;
   height: 21.5rem;
   border: solid 5px #ebe0dc;
+  margin: 0 auto;
 }
 
 .rectangle-yellow {
   width: 21.5rem;
   height: 21.5rem;
   border: solid 5px #f7e398;
+  margin: 0 auto;
 }
 
 .profile-picture {
@@ -238,6 +242,18 @@ h3 {
   position: relative;
   top: 1rem;
   left: 1rem;
+}
+
+.name {
+  text-transform: none;
+}
+
+.large-font {
+  font-size: 48px;
+}
+
+.medium-font {
+  font-size: 24px;
 }
 
 .github {
