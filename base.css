@@ -161,6 +161,10 @@ h2 {
   text-transform: none;
 }
 
+.padding-top-one {
+  padding-top: 1rem;
+}
+
 .padding-bottom-two {
   padding-bottom: 2rem;
 }
